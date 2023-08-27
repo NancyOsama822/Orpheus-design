@@ -1,0 +1,320 @@
+body {
+    background: #050607;
+}
+
+* {
+    margin: 0;
+}
+
+
+
+/* Start Navbar Section */
+.main-section .navbar-expand-lg .navbar-nav .nav-link {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+.main-section .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #BF841A ;
+}
+/* End Navbar Section */
+
+/* Start Main */
+.main-section main {
+    margin-top: 58px;
+}
+.main-section main section header h1 {
+    font-size: 60px;
+    font-family: 'Cinzel', serif;
+    color: #BF841A ;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.main-section main section header h1 span {
+    font-weight: 800;
+    letter-spacing: 32.56px;
+}
+.main-section main section article p {
+    color: #EFF3FB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 35px;
+    margin-bottom: 39px;
+}
+.main-section main section article div button {
+    width: 180px;
+    height: 54px;
+    padding: 2px 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: all .3s ease;
+}
+.main-section main section article div button:hover {
+    transform: scale(1.05);
+}
+.main-section main section article div .works {
+    background: rgba(10, 13, 19, 0.00);
+    color: #BF841A;
+    margin-right: 56px;
+    border-image-slice: 1 1 0 0;
+    border: 1px solid #BF841A;
+    
+}
+.main-section main section article div .stuff {
+    background: rgba(10, 13, 19, 0.00);
+    border: none;
+    color: #0A0D11;
+    background: var(--gold-linear, linear-gradient(315deg, #FFE5A1 0%, #BF841A 50.52%, #FFCD74 100%));
+}
+/*end main section*/
+
+
+/*start recent section*/
+
+.recent {
+    margin: 60px 0;
+}
+.recent header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.recent header img{
+    margin: 0 27px;
+}
+.recent header h3{
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    background: var(--gold-linear, linear-gradient(315deg, #FFE5A1 0%, #BF841A 50.52%, #FFCD74 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.recent header a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.recent article div figure{
+    transition:all 0.3s;
+}
+.recent article div figure:hover{
+   transform: scale(1.05);
+}
+.recent article , figure figcaption{
+    background: linear-gradient(90deg, rgba(9, 11, 14, 0.81) 19.79%, rgba(9, 11, 14, 0.00) 97.40%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.63px;
+    font-family: 'Montserrat', sans-serif;
+    transform: translateY(-59px);
+    padding: 10px;
+    
+}
+.figure figcaption{
+    background: linear-gradient(90deg, rgba(9, 11, 14, 0.81) 19.79%, rgba(9, 11, 14, 0.00) 97.40%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.63px;
+    font-family: 'Montserrat', sans-serif;
+    transform: translateY(-59px);
+    padding: 10px;
+}
+.recent article div.row{
+    margin-top: 30px;
+}
+/*.recent article , figure figcaption span{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0.63px;
+}*/
+/*end recent section*/
+
+.contribution  {
+    margin: 40px 0;
+}
+.contribution .container{
+    background-color: #010101;
+}
+.contribution  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.contribution header img  {
+    margin: 0 27px;
+}
+.contribution  header h3,.statue main section header h1 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    background: var(--gold-linear, linear-gradient(315deg, #FFE5A1 0%, #BF841A 50.52%, #FFCD74 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.contribution header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.contribution main section header ,.statue main section header h1 {
+    color: #BF841A ;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+
+.contribution main section article p,.statue main section article p{
+    color: #CCC;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 9.12px;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+.contribution main section article div,.statue main section article div{
+    justify-content: center;
+    display: flex;
+}
+.contribution main section article div .stuff ,.statue main section article .stuff{
+    width: 180px;
+    height: 54px;
+    padding: 2px 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: all .3s ease;
+    border: none;
+    color: #0A0D11;
+    transition: all 0.3s;
+    background: var(--gold-linear, linear-gradient(315deg, #FFE5A1 0%, #BF841A 50.52%, #FFCD74 100%));
+}
+.contribution main section article div .stuff:hover,.statue main section article .stuff:hover {
+    transform: scale(1.05);
+
+}
+.statue  {
+    margin: 40px 0;
+}
+.statue .container{
+     background-color: #0a0f1a;
+}
+
+footer {
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
+    height: 248px;
+}
+footer header h1 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    background: var(--gold-linear, linear-gradient(315deg, #FFE5A1 0%, #BF841A 50.52%, #FFCD74 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer header article p{
+    color: #FFF;
+    font-family:Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+footer header article div img{
+    padding: 15px;
+    transition: all 0.3s;
+}
+footer header article div img:hover{
+    transform: scale(1.05);
+}
+    
+
+@media(max-width:800px){
+    .main-section main section header h1{
+        font-size: 30px;
+        margin-top: 30px;
+
+    }
+    .main-section main section article div button{
+        width: 120px;
+        height: 44px;
+
+    }
+    .main-section main section article div .works{
+        margin-right: 10px;
+    }
+    .recent header h3 {
+        font-size: 20px;
+    }
+    .contribution  header h3,.contribution main section article p,.contribution  header h3{
+        font-size: 18px;
+        
+    }
+    .contribution main section article div .stuff{
+        width: 170px;
+        height: 44px;
+    }
+    footer header h1{
+        font-size: 18px;
+    }
+    footer header article p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    footer header article div img{
+        padding: 5px; 
+        width: 50px;
+        height: 50px;
+    }
+
+}
